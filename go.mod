@@ -13,7 +13,7 @@ require (
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gomodule/redigo v1.8.9
-	github.com/juju/ratelimit v1.0.2
+	github.com/juju/ratelimit v1.0.1
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/robfig/go-cache v0.0.0-20130306151617-9fc39e0dbf62
