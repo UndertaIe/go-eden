@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/UndertaIe/go-eden/pkg/cache"
-	"github.com/UndertaIe/go-eden/pkg/utils"
+	"github.com/UndertaIe/go-eden/cache"
+	"github.com/UndertaIe/go-eden/utils"
 )
 
 // 对接各平台短信服务

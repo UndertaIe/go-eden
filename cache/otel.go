@@ -3,13 +3,13 @@ package cache
 import (
 	"time"
 
-	"github.com/UndertaIe/go-eden/pkg/logger"
+	"github.com/UndertaIe/go-eden/logger"
 	"github.com/gin-gonic/gin"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"
 )
 
-var cacheTracerName = "github.com/UndertaIe/go-eden/pkg/cache/otel"
+var cacheTracerName = "github.com/UndertaIe/go-eden/cache/otel"
 var deleteSpanName = "cache.delete"
 var cacheSpanName = "cache.decorator"
 

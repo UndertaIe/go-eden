@@ -3,7 +3,7 @@ package auth
 import (
 	"crypto"
 
-	"github.com/UndertaIe/go-eden/pkg/utils"
+	"github.com/UndertaIe/go-eden/utils"
 	"github.com/dgrijalva/jwt-go"
 )
 

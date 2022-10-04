@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/UndertaIe/go-eden/pkg/logger"
+	"github.com/UndertaIe/go-eden/logger"
 	"github.com/gin-gonic/gin"
 )
 

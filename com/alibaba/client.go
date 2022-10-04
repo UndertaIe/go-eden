@@ -3,16 +3,17 @@ package alibaba
 import (
 	"fmt"
 
-	"github.com/UndertaIe/go-eden/pkg/sms"
+	"github.com/UndertaIe/go-eden/sms"
 	openapi "github.com/alibabacloud-go/darabonba-openapi/client"
 	dysmsapi20170525 "github.com/alibabacloud-go/dysmsapi-20170525/v2/client"
 	util "github.com/alibabacloud-go/tea-utils/service"
 	"github.com/alibabacloud-go/tea/tea"
 )
 
+var _ sms.SmsClient = (*Client)(nil)
+
 type Client struct {
 	cli *dysmsapi20170525.Client
-	sms.SmsClient
 }
 
 func NewClient(accessKeyId string, accessKeySecret string) (*Client, error) {

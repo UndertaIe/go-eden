@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/UndertaIe/go-eden/pkg/cache"
-	"github.com/UndertaIe/go-eden/pkg/errcode"
+	"github.com/UndertaIe/go-eden/cache"
+	"github.com/UndertaIe/go-eden/errcode"
 	"github.com/gin-gonic/gin"
 )
 
