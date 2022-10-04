@@ -75,3 +75,7 @@ require (
 	gopkg.in/ini.v1 v1.56.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace github.com/juju/ratelimit v1.0.1 => github.com/UndertaIe/ratelimit v1.3.0
+
+replace github.com/getsentry/sentry-go v0.13.0 => github.com/UndertaIe/sentry-go v1.0.0
