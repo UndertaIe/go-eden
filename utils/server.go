@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-func Shutdown(s *http.Server) {
+func ListenAndServe(s *http.Server) {
 	var err error
 	go func() {
 		if err != s.ListenAndServe() && err != http.ErrServerClosed {
