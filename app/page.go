@@ -12,9 +12,9 @@ type Pager struct {
 	// 当前页数 page_num
 	PageNum int `json:"pn"`
 	// 总记录行数 rows_num
-	RowsNum int `json:"rn"`
+	RowsNum int `json:"rn,omitempty"`
 	// 返回记录数 cur_num
-	CurNum int `json:"cn"`
+	CurNum int `json:"cn,omitempty"`
 }
 
 func SetPagerOption(o PagerOption) {
